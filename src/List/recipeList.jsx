@@ -6,6 +6,7 @@ import {
   SingleFieldList,
   ChipField,
   ArrayField,
+  // Edit
 } from "react-admin";
 
 export const RecipeList = () => (

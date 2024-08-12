@@ -12,6 +12,7 @@ const UsersList = () => {
     <List>
       <Datagrid>
         <TextField source="id" />
+        <TextField source="username" />
         <EmailField source="email" />
       </Datagrid>
     </List>
