@@ -18,7 +18,7 @@ export const RecipesEdit = () => (
       </ArrayInput>
       <ArrayInput source="instructions">
         <SimpleFormIterator>
-          <TextInput source="step" label="Step ID" />
+          <TextInput source="_id" label="Step ID" />
         </SimpleFormIterator>
       </ArrayInput>
       <TextInput source="category" />
