@@ -13,12 +13,12 @@ export const RecipesEdit = () => (
       <TextInput source="description" />
       <ArrayInput source="ingredients">
         <SimpleFormIterator>
-          <TextInput source="name" label="Ingredient Name" />
+          <TextInput source="_id" label="Ingredient ID" />
         </SimpleFormIterator>
       </ArrayInput>
       <ArrayInput source="instructions">
         <SimpleFormIterator>
-          <TextInput source="step" label="Instruction Step" />
+          <TextInput source="step" label="Step ID" />
         </SimpleFormIterator>
       </ArrayInput>
       <TextInput source="category" />

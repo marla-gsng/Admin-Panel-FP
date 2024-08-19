@@ -50,6 +50,9 @@ const myDataProvider = {
         data: { ...data, id: data._id },
       }));
   },
+  delete: (resource, params) => {
+    return dataProvider.delete(resource, params);
+  },
 };
 
 export default myDataProvider;

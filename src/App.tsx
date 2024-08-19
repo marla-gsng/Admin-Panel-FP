@@ -21,6 +21,7 @@ import { RecipesEdit } from "./Edit/recipesEdit";
 import { StepsEdit } from "./Edit/stepsEdit";
 import { IngredientsEdit } from "./Edit/ingredientsEdit";
 import { IngredientsShow } from "./Show/ingredientsShow";
+import { StepsShow } from "./Show/stepsShow";
 
 export const App = () => (
   <Admin
@@ -56,6 +57,7 @@ export const App = () => (
       list={StepsList}
       edit={StepsEdit}
       create={StepsCreate}
+      show={StepsShow}
     />
   </Admin>
 );
